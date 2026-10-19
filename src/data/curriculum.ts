@@ -449,7 +449,7 @@ export const CURRICULUM_MODULES: CurriculumModule[] = [
           'Tree and Graph algorithms all share a simple skeleton: a **frontier** container (`Queue` for BFS, `Stack` for DFS) and a `visited` set. When states overlap and satisfy optimal substructure, **Dynamic Programming** caches subproblem results.',
         pythonCode: `def bfs_level_order(adj: dict[int, list[int]], start: int) -> list[int]:
     """
-    Breadth-First Search (BFS) traversal order starting from `start`.
+    Breadth-First Search (BFS) traversal order starting from \`start\`.
     Time: O(V + E) | Space: O(V)
     """
     visited = {start}
